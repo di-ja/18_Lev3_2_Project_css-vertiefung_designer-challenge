@@ -75,7 +75,7 @@ header div p{
 }
 #banner img {
     width: 100%;
-    margin-top: 35vh;
+    margin-top: 40vh;
 }
 .flexZweiSp {
     width: 100%;
@@ -125,37 +125,97 @@ header div p{
 .bullet img {
     width: 50px;
 }
-#ready h2 {
+#center h2 {
     text-align: center;
 }
-#ready p {
+#center p {
     text-align: center;
     padding-left: 20%;
     padding-right: 20%;
 }
-.halfImg {
-    background: url(../img/step01.png) center/contain no-repeat;
-    width: 22%;
-    height: 80vh;
-}
 .zweiSp {
     width: 100%;
     display: flex;
-    justify-content: ;
-    margin-top: 40vh;
+    justify-content: space-evenly;
+    align-self: flex-start;
+    padding-top: 20vh;
+}
+.halfImgEins {
+    background: url(../img/step01.png) top/contain no-repeat;
+    width: 35%;
+}
+.halfImgZwei {
+    background: url(../img/step02.png) top/contain no-repeat;
+    width: 35%;
+}
+.halfImgDrei {
+    background: url(../img/step03.png) top/contain no-repeat;
+    width: 35%;
+}
+.halfImgVier {
+    background: url(../img/step04.png) top/contain no-repeat;
+    width: 35%;
 }
 .halfTxt {
-    width: 22%;
+    width: 35%;
 }
-.halfTxt img{
-    margin: 0;
+.halfTxt h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 5em;
     padding: 0;
-}
-.halfTxt h3{
     margin: 0;
-    padding: 0;
+    color: rgba(0, 0, 0, 0.2);
+    padding-bottom: 5vh;
 }
 .halfTxt p {
-    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    line-height: 2em;
     padding: 0;
+    margin: 0;
+}
+.halfTxt div {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1.4em;
+    margin-bottom: 0.5em;
+}
+.abstand {
+    padding: 22vh 10% 5vh;
+}
+form input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    display: block;
+    margin: 0 auto;
+    background: white;
+    border: none;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 30px 12%;
+    border-radius: 8px;
+    box-shadow: 0 0 20px #ddd;
+}
+.button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    margin: 0 auto;
+    background: #ff3571;
+    border: none;
+    text-align: center;
+    padding: 30px 12%;
+    margin-top: 5vh;
+    margin-bottom: 20vh;
+    border-radius: 8px;
+    box-shadow: 0 0 20px #ddd;
+}
+.button:hover {
+    background-image: linear-gradient(to right, #ff3571 , #3C30FF);
+}
+footer {
+    font-size: 1.2em;
+    padding: 0 0 30px 8%;
+}
+footer img {
+    vertical-align: baseline;
 }
