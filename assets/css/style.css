@@ -7,36 +7,155 @@ html{
 
 /* Farben: #0b0c17 / #ff3571 / #dddddd / #3C30FF / #FFF / #000
 font-family: 'Roboto', sans-serif;
+
+padding-top: 46px;
+    height: calc(100vh - 46px);
+    background: url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/photo-1443527216320-7e744084f5a7-1.jpg) center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 */
+
 body {
-    font-size: 18px;
+    font-size: 20px;
 }
-header {
-    height: 85vh;
-    background: url(../img/ilustracion_people.png) right/contain scroll no-repeat,url(../img/ilustracion1.png) right/contain scroll no-repeat;
-}
-.Logo {
-    padding: 2% 0 0 3%;
-    width: 54px;
-    position: fixed;
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #0b0c17;
 }
 h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 5em;
     font-weight: 700;
-    line-height: 1.1em;
     color: #0b0c17;
-    padding: 35vh 40% 0 5%;
-    text-shadow: -2px 3px 1px white;
+}
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5em;
+    font-weight: 700;
+    color: #0b0c17;
+}
+.Logo {
+    padding: 30px 0 0 30px;
+    width: 54px;
+    position: fixed;
 }
 header h2 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    padding: 2% 0 0 7%;
+    font-size: 1.5em;
+    padding: 30px 0 0 100px;
 }
-p 
 header p {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    padding-left: 7%;
+    padding-left: 100px;
+}
+header {
+    background: url(../img/ilustracion_people.png) right/contain no-repeat,url(../img/ilustracion1.png) right/contain no-repeat;
+    height: 80vh;
+}
+h1 {
+    font-size: 5em;
+    line-height: 1.1em;
+    padding: 32vh 40% 0 110px;
+    text-shadow: -2px 3px 1px white;
+}
+header span img {
+    vertical-align: middle;
+}
+section p {
+    font-size: 1.6em;
+    line-height: 1.2em;
+    padding: 1em 46% 5vh 110px;
+}
+header div p{
+    padding: 11vh 0 0vh 110px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ff3571;
+}
+#banner img {
+    width: 100%;
+    margin-top: 35vh;
+}
+.flexZweiSp {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-top: 40vh;
+}
+.ideaHead {
+    width: 40%;
+    padding: 0 6% 0 10%;
+}
+.ideaTxt {
+    width: 60%;
+    padding-right: 10%;
+}
+.ideaTxt p {
+    font-size: 1em;
+    line-height: 2em;
+    padding: 0;
+}
+#after {
+    padding: 15% 30% 15% 10%;
+}
+.box {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 20vh;
+}
+.bullet {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 35%;
+}
+.bullet p {
+    font-size: 1em;
+    line-height: 2em;
+    padding: 0;
+    margin-left: 5%;
+    padding-top: 6px;
+}
+.bullet img {
+    width: 50px;
+}
+#ready h2 {
+    text-align: center;
+}
+#ready p {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.halfImg {
+    background: url(../img/step01.png) center/contain no-repeat;
+    width: 22%;
+    height: 80vh;
+}
+.zweiSp {
+    width: 100%;
+    display: flex;
+    justify-content: ;
+    margin-top: 40vh;
+}
+.halfTxt {
+    width: 22%;
+}
+.halfTxt img{
+    margin: 0;
+    padding: 0;
+}
+.halfTxt h3{
+    margin: 0;
+    padding: 0;
+}
+.halfTxt p {
+    margin: 0;
+    padding: 0;
 }
