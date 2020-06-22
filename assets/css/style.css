@@ -5,19 +5,6 @@ html{
 }
 * {margin:0; padding:0}
 
-/* Farben: #0b0c17 / #ff3571 / #dddddd / #3C30FF / #FFF / #000
-font-family: 'Roboto', sans-serif;
-
-padding-top: 46px;
-    height: calc(100vh - 46px);
-    background: url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/photo-1443527216320-7e744084f5a7-1.jpg) center/cover no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-*/
-
 body {
     font-size: 20px;
 }
@@ -133,6 +120,21 @@ header div p{
     padding-left: 20%;
     padding-right: 20%;
 }
+#centerDoYouLike {
+    padding: 22vh 10% 5vh;
+}
+#centerDoYouLike h2 {
+    text-align: center;
+}
+#centerDoYouLike p {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+
+
 .zweiSp {
     width: 100%;
     display: flex;
@@ -178,9 +180,6 @@ header div p{
     font-family: 'Roboto', sans-serif;
     margin-top: 1.4em;
     margin-bottom: 0.5em;
-}
-.abstand {
-    padding: 22vh 10% 5vh;
 }
 form input {
     font-family: 'Roboto', sans-serif;

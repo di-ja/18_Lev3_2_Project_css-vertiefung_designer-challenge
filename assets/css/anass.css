@@ -1,0 +1,34 @@
+section#hero{
+    background: url(../img/ilustracion1.png)  right top /contain no-repeat;
+}
+#hero div{
+    height: 80vh;
+    background: url(../img/ilustracion_people.png) right top /contain no-repeat;
+    animation: bg-animate 2s infinite ;
+}
+@keyframes bg-animate{
+    0%,100%{
+        background-position: right 0px;
+    }
+    50%{
+        background-position: right 20px;
+    }
+}
+#icon img,#icon1 img{
+    width: 40px;
+}
+#icon, #icon1{
+    display: flex;
+    padding: 100px 10%;
+    justify-content: space-between;
+}
+article{
+    display: flex;
+}
+article div{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+article p{
+    max-width: 400px;
+}
