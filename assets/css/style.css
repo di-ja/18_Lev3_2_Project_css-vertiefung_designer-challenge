@@ -37,7 +37,8 @@ header p {
     padding-left: 100px;
 }
 header {
-    background: url(../img/ilustracion_people.png) right/contain no-repeat,url(../img/ilustracion1.png) right/contain no-repeat;
+    background: url(../img/ilustracion1.png) right/contain no-repeat,url() right/contain no-repeat;
+    position: relative;
     height: 80vh;
 }
 h1 {
@@ -64,6 +65,19 @@ header div p{
     width: 100%;
     margin-top: 40vh;
 }
+.moving {
+    width: 50%;
+    height: 80vh;
+    background: url(../img/ilustracion_people.png) right/contain no-repeat;
+    position: absolute;
+    top: 6vh;
+    right: 2vw;
+    animation: moving-dude 2s linear infinite;
+}
+@keyframes moving-dude {
+    0%, 100% {top: 6vh}
+    50% {top: 8vh}
+    }
 .flexZweiSp {
     width: 100%;
     display: flex;
